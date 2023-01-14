@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+    //parent block
+    function test(){
+
+        //child block
+        if(true){
+            var a= "hello";
+            let b= 1234;
+            const c="How are you Doing?";
+
+          
+        }
+
+        console.log("Var: "+a); //can be accessed out side the child scope (global)
+        console.log("Let: "+b);//can't be access outside the child scope
+        console.log("Const: "+c);//can't be access outside the child scope
+        
+    }
+
+    test();
+
+
+    </script>
+   
+
+
+
+    
+</body>
+</html>
