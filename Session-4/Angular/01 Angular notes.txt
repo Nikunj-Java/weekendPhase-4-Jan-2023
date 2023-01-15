@@ -1,0 +1,109 @@
+***************************************************************************************************************
+ANGULAR
+***************************************************************************************************************
+
+install node js from link:
+
+https://nodejs.org/en/download
+
+
+---------------------------------------------------------------------------------------------------------------
+
+STEP:1 CHECK THE VERSION OF NODE AND NPM
+
+---------------------------------------------------------------------------------------------------------------
+
+1. TO CHECK THE VERSION OF NODE
+
+> Open cmd> node -v
+	output: v16.14.2
+2. NPM MANAGER- NODE PACKAGE MANAGER
+
+---> Provides the bundle of packages which we can download directly using cmd
+---> eg: angular,react,ViewJs,TypeScript,BootStrap
+---> NPM Installed automatically along with NODE JS in your machine
+
+3. TO CHECK THE VERSION OF NPM
+
+> npm -v
+
+	output: 8.19.2
+
+---------------------------------------------------------------------------------------------------------------
+STEP:2 INSTALLING TYPESCRIPT USING NPM
+---------------------------------------------------------------------------------------------------------------
+
+> npm install typescript -g
+
+1. to check the version
+
+> tsc -v
+	output:Version 4.9.4
+---------------------------------------------------------------------------------------------------------------
+TYPESCRIPT PROGRAM IN VISUAL STUDIO CODE
+---------------------------------------------------------------------------------------------------------------
+
+
+goto>visual studio code>create new folder>first.ts
+
+first.ts
+-----------------------------------------
+let a: number;
+a=56;
+
+let b:number=12;
+
+
+let fname:string="Nikunj Soni";
+
+console.log(a+b);
+
+console.log(fname);
+
+function test(num1:number ,num2:number){
+    return num1+num2;
+}
+
+console.log("Addition: "+test(2,3));
+-------------------------------------------
+
+goto>terminal>new terminal>choose cmd
+
+>tsc first.ts
+
+you will see that a new file named 'first.js' is automatically prepared in the folder
+
+
+> node first.js
+
+
+you will see out put in console
+.................................
+
+
+
+--------Preparing tsconfig.json file---------------
+- it explains that how  .ts file gets converted to .js file
+
+> tsc --init 
+ (this will create tsconfig.json file in the same folder)
+
+
+---------------------------------------------------------------------------------------------------------------
+STEP:3 INSTALL ANGULAR IN YOUR MACHINE
+---------------------------------------------------------------------------------------------------------------
+let's install angular:
+
+> npm install -g @angular/cli (Or npm i -g @angular/cli)
+
+to check the version
+
+>ng --version or ng v
+
+
+
+
+
+
+
+

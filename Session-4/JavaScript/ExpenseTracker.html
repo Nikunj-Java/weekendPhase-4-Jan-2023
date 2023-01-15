@@ -68,24 +68,27 @@
     <script>
           var list = document.getElementById('demo');
           var list1 = document.getElementById('demo1');
-
+          var total = document.getElementById('totalPrice');
           function changeText2() {
                 var name = document.getElementById('pname').value;
                 document.getElementById('pname').innerHTML = name;
+                
                 var entry = document.createElement('li');
                 entry.appendChild(document.createTextNode(name));
                 list.appendChild(entry);
 
                 var price = document.getElementById('pprice').value;
                 document.getElementById('pprice').innerHTML = price;
+                
                 var entry = document.createElement('li');
                 entry.appendChild(document.createTextNode(price));
                 list1.appendChild(entry);
+  
 
                  
-
-
+               
                  
+                
             }
                     
     </script>
