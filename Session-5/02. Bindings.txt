@@ -201,7 +201,7 @@ goto>bidings>bindings.component.html
 bindings.component.html
 -------------------------
 
- <td [style.font-weight]="we">{{p.price}}</td>
+ <td [class.inStock]="true">{{p.name}}</td>
 
 
 Save it and check the output
