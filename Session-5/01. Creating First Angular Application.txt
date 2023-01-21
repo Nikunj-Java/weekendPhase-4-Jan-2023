@@ -1,0 +1,46 @@
+************************************************************************
+CREATE FIRST ANGULAR APP
+************************************************************************
+
+> ng new myapp (you can give any name:myapp)
+	it will ask you two questions
+	1. Would you like to add Angular routing? : Yes
+	2. Which stylesheet format would you like to use? 
+	   choose:CSS
+once the app is ready you need to change the directory or simply open that folder from VISUAL STUDIO CODE
+
+> cd myapp  
+
+OR simpli change the folder
+ 
+goto>File>OpenFolder>YourAppName
+
+To start The application
+
+>ng serve
+
+
+
+once the app is ready  goto>browser>type---->localhost:4200
+
+if you want to change the layout of the app
+
+goto>app>app.component.html file and edit that file
+
+----------------------------------------------------------------------
+LET'S PREPARE COMPONENT
+
+>ng generate component header (or ng g c header ) //header is name of component
+
+goto>app>header>header.component.ts file copy selector tag and it to app.component.html file like below
+
+app.component.html
+------------------
+
+<h1>MY FIRST ANGULAR APPLICATION</h1>
+
+<app-header></app-header>
+
+save it and check the same in browser
+
+similarly  you can prepare many components and do the same procedure
