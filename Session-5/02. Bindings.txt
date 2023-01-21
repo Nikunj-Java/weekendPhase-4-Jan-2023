@@ -89,3 +89,56 @@ index.html
 
 
 save it and check the output
+
+
+
+------------------------------------------------------------------------
+
+
+Types:
+	1. Source(.ts) to View(.html)
+	2. View (.html) to Source(.ts)
+	3. Source to view to source (Two Way Bindings)
+
+
+Data bindings can be done in two ways
+
+1. Interpolation {{}}
+2. Property Bindings []
+
+goto>bindings>bindings.component.ts file
+
+bindings.component.ts
+--------------------------
+
+name:string="NIKUNJ SONI";
+url:string="http://www.google.com/";
+
+
+
+goto>bindings>bindings.component.html file
+
+bindings.component.html
+-----------------------
+
+
+<hr>
+<h2>Let's Bind Data from source(.ts) to view(.html)</h2>
+<hr>
+
+<p>{{name}}</p>
+
+<hr>
+
+<h2>Let's Bind the data from source to view Using Property Binding: [] :bind the data with attribute</h2>
+
+<a [href]="url">Connect To Google</a>
+
+save it and check the output
+----------------------------------------------------------
+
+
+
+
+
+
