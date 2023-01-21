@@ -16,5 +16,7 @@ products=[{name:"pencile",price:"8.3",available:"21-01-2023",ratings:4.8},
 name:string="NIKUNJ SONI";
 url:string="http://www.google.com/";
 
+we:number=700;
+
 }
 
