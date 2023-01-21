@@ -18,5 +18,11 @@ url:string="http://www.google.com/";
 
 we:number=700;
 
+
+flag:boolean=false;
+show(){
+  this.flag=!this.flag;
+}
+
 }
 

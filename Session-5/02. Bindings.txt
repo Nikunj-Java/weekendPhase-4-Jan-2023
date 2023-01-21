@@ -153,6 +153,29 @@ now bind the data in binding .component.html file
 save it and check the output
 
 
+************************************************************************
+EVENT BINDING
+************************************************************************
+prepare one button and div in binding.component.html
 
+binding.component.html
+------------------------
+
+<div class="btn btn-primary" (click)="show()">SHOW DIV</div>
+
+<div *ngIf="flag" style="background-color: yellowgreen;">
+This is my Div and You have Successfully Implemented EVENT BINDING
+</div>
+
+-------------------------
+
+now goto>binding.component.ts file and add the code as below
+
+flag:boolean=false;
+show(){
+  this.flag=!this.flag;
+}
+
+save and check the output
 
 
