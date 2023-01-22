@@ -4,6 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChangeColorDirective } from './ChangeColorDirective';
+import { DataService } from './data.service';
+import { DirectiveComponent } from './directive/directive.component';
+import { HighLightDirective } from './HighLightDirective';
 import { RegisterComponent } from './register/register.component';
 import { ServiceComponent } from './service/service.component';
 
@@ -11,7 +15,10 @@ import { ServiceComponent } from './service/service.component';
   declarations: [
     AppComponent,
     RegisterComponent,
-    ServiceComponent
+    DirectiveComponent,
+    ServiceComponent,
+    ChangeColorDirective,
+    HighLightDirective
   ],
   imports: [
     BrowserModule,
@@ -19,7 +26,7 @@ import { ServiceComponent } from './service/service.component';
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [],
+  providers: [DataService],//register service
   bootstrap: [AppComponent]
 })
 export class AppModule { }
