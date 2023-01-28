@@ -17,6 +17,8 @@ export class PipeComponent implements OnInit {
   today=new Date();
   object ={name:"Nikunj",email:"nikunj@gmail.com",address:"Mumbai"};
 
+  //custom  pipe
+  cust:string="Welcome to the world of customPipes";
    
 
 }

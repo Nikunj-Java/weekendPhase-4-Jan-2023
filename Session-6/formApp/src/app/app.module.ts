@@ -11,6 +11,7 @@ import { HighLightDirective } from './HighLightDirective';
 import { RegisterComponent } from './register/register.component';
 import { ServiceComponent } from './service/service.component';
 import { PipeComponent } from './pipe/pipe.component';
+import { CustomPipe } from './CustomPipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PipeComponent } from './pipe/pipe.component';
     ServiceComponent,
     ChangeColorDirective,
     HighLightDirective,
-    PipeComponent
+    PipeComponent,
+    CustomPipe
   ],
   imports: [
     BrowserModule,
