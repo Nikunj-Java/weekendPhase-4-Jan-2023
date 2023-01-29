@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": 1674974701777,
+      "product": "Food Item",
+      "category": "category",
+      "price": "100",
+      "available": "yes"
+    },
+    {
+      "id": 1674974751160,
+      "product": "Food Item",
+      "category": "category",
+      "price": "100",
+      "available": "yes"
+    },
+    {
+      "id": 1674974751992,
+      "product": "Food Item",
+      "category": "category",
+      "price": "100",
+      "available": "yes"
+    },
+    {
+      "id": 1674974752736,
+      "product": "Food Item",
+      "category": "category",
+      "price": "100",
+      "available": "yes"
+    },
+    {
+      "id": 1674974753384,
+      "product": "Food Item",
+      "category": "category",
+      "price": "100",
+      "available": "yes"
+    }
+  ]
+}
